@@ -1,0 +1,15 @@
+long _n = 0;
+while(_n<17)
+{
+    write _n;
+    _n++;
+    if(_n==17)
+    {
+        write _n;
+        break;
+    }
+    if(_n==13)
+    {
+        continue;
+    }
+}
